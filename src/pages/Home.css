@@ -1,0 +1,13 @@
+.scrolling-verti {
+  overflow-y: scroll;
+  height: 450px;
+  scrollbar-color: white lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+  .scrolling-verti {
+    overflow-y: scroll;
+    height: 200px;
+    scrollbar-color: white lightblue;
+  }
+}
