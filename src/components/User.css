@@ -15,3 +15,9 @@
 .user-details {
   height: 400px;
 }
+
+.details-img {
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+}

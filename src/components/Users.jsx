@@ -11,11 +11,14 @@ const Users = () => {
   return (
     <div>
       <h5 className="mb-2">Users List</h5>
-      <div className="scrolling-verti">
-        {users?.map((user) => (
-          <UserList key={user.id} user={user}></UserList>
-        ))}
-      </div>
+
+      {users && (
+        <div className="scrolling-verti ">
+          {users?.map((user) => (
+            <UserList key={user.id} user={user}></UserList>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
