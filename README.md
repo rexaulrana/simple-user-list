@@ -1,6 +1,6 @@
 # Simple User List
 
-[Live link](https://katherineoelsner.com/)
+[Live link](https://simple-user-list.netlify.app)
 
 ## Project overview:
 
